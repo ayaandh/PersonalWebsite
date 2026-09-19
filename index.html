@@ -1,614 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ayaan Dhalait</title>
-<meta name="description" content="Ayaan Dhalait is a software developer building languages, engines, tools and experiments.">
-<meta name="theme-color" content="#eee7d4">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayaan Dhalait</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
-
 <body>
+    <main>
+        <header>
+            <a href="/" class="name">Ayaan <span>Dhalait</span></a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/projects/">Projects</a>
+                <a href="/blog/">Blog</a>
+                <a href="https://github.com/ayaandh" target="_blank">GitHub ↗</a>
+            </nav>
+        </header>
 
-<div class="page">
-
-<nav class="nav">
-    <a href="#" class="nav-logo">
-        <span class="nav-logo-mark"></span>
-        AYAANDH
-    </a>
-
-    <div class="nav-links">
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#activity">ACTIVITY</a>
-        <a href="#contact">CONTACT</a>
-    </div>
-</nav>
-
-<main>
-
-<section class="hero">
-    <div class="hero-copy reveal">
-        <span class="label">SOFTWARE DEVELOPER / STUDENT</span>
-
-        <h1 class="hand">
-            Ayaan
-            <span>Dhalait.</span>
-        </h1>
-
-        <p class="hero-description">
-            I'm a year 10 student and programmer. I usually write C++ and Python code. I'm currently working on my own interpreted programming language that I made in C++. I used to do web development as my main thing before so thats what I do ocasionally.
-        </p>
-
-        <div class="hero-links">
-            <a class="button primary" href="#projects">VIEW PROJECTS ↗</a>
-            <a class="button" href="https://github.com/ayaandh" target="_blank" rel="noopener">GITHUB ↗</a>
-        </div>
-    </div>
-
-    <aside class="hero-note reveal">
-        <div class="hero-note-title">BIO</div>
-
-        <h2 class="hand">
-            A small<br>
-            Biography about me
-        </h2>
-
-        <p>
-            I am a high school student who codes, specifically in C++.
-        </p>
-
-        <div class="note-lines">
-            <div class="note-line">
-                <span>LANGUAGE</span>
-                <span>C++ & Python</span>
+        <section class="hero">
+            <p class="eyebrow">PROGRAMMER · STUDENT · BUILDER</p>
+            <h1>Hi, I'm Ayaan.</h1>
+            <p class="intro">I'm a Year 10 student and programmer interested in C++, C, Python, systems programming and creating things from scratch.</p>
+            <div class="links">
+                <a href="/projects/">View my projects <span>↗</span></a>
+                <a href="/blog/">Read my blog <span>↗</span></a>
             </div>
+        </section>
 
-            <div class="note-line">
-                <span>EDITOR</span>
-                <span>VS CODE</span>
+        <section>
+            <div class="section-title"><span>01</span><h2>About</h2></div>
+            <div class="about">
+                <p>I enjoy programming, learning how computers work, and turning ideas into software.</p>
+                <p>I'm currently going deeper into C++ and building projects to learn how things work rather than just using them. I plan to explore C, assembly and operating systems as I get further into systems programming.</p>
             </div>
-        </div>
-    </aside>
-</section>
+        </section>
 
-<section class="portrait-section reveal" id="about">
-
-    <div class="portrait-frame">
-        <div class="portrait-image-wrap">
-            <img
-                src="Ayaan.png"
-                alt="Ayaan Dhalait"
-                class="portrait-image"
-            >
-        </div>
-
-        <div class="portrait-caption">
-            <span>PORTRAIT / AYAAN</span>
-            <span>2026</span>
-        </div>
-    </div>
-
-    <div class="portrait-copy">
-        <span class="label">Meet me!</span>
-
-        <h2 class="hand">
-            Hello<br>
-            <span>There!.</span>
-        </h2>
-
-        <p>
-            Hello and welcome to my little cornor of the internet. I like speed cubing and have a thing for nature.
-        </p>
-
-        <div class="portrait-notes">
-            <div class="portrait-note">
-                <span>OTHER HOBIES</span>
-                <span>SPEED CUBING, HIKING/TREKING</span>
+        <section>
+            <div class="section-title"><span>02</span><h2>Selected work</h2></div>
+            <div class="projects">
+                <a class="project" href="https://github.com/ayaandh/Tekst" target="_blank">
+                    <div><p class="type">C++</p><h3>Tekst</h3><p>A programming language I made in C++. An experiment in building a language from scratch.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+                <a class="project" href="https://github.com/ayaandh/Build" target="_blank">
+                    <div><p class="type">C++</p><h3>Build</h3><p>A build tool for C++ written in C++.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
+                <a class="project" href="https://github.com/ayaandh/dhctl-source-code" target="_blank">
+                    <div><p class="type">Python</p><h3>Dhctl</h3><p>A CLI programming utility tool for programmers written in Python.</p></div>
+                    <span class="arrow">↗</span>
+                </a>
             </div>
-        </div>
-    </div>
-
-</section>
-
-
-<section id="projects" class="reveal">
-    <div class="section-heading">
-        <div>
-            <span class="label">SELECTED WORK</span>
-            <h2 class="section-title hand">My hall of fame.</h2>
-        </div>
-        <span class="section-number">04 / 05</span>
-    </div>
-
-    <div class="projects">
-
-        <a href="https://tekst.ayaan.is-a.dev" class="project">
-            <div class="project-number">
-                <span>01</span>
-                <span>LANGUAGE</span>
-            </div>
-
-            <h3 class="hand">Tekst.</h3>
-
-            <p>
-                A programming language I'm building from scratch.
-                Syntax, parsing, tokens and the wonderfully strange
-                problem of making computers understand your nonsense.
-            </p>
-
-            <div class="project-bottom">
-                <div class="tags">
-                    <span class="tag">C++</span>
-                    <span class="tag">LANGUAGE</span>
-                    <span class="tag">COMPILER</span>
-                </div>
-                <span class="project-index">001</span>
-            </div>
-        </a>
-
-        <a href="https://dhengine.github.io" class="project">
-            <div class="project-number">
-                <span>02</span>
-                <span>ENGINE</span>
-            </div>
-
-            <h3 class="hand">DhEngine.</h3>
-
-            <p>
-                A game engine project exploring rendering, architecture
-                and the lower-level machinery behind interactive software.
-            </p>
-
-            <div class="project-bottom">
-                <div class="tags">
-                    <span class="tag">C++</span>
-                    <span class="tag">ENGINE</span>
-                    <span class="tag">GAMEDEV</span>
-                </div>
-                <span class="project-index">002</span>
-            </div>
-        </a>
-
-        <a href="https://timetogo.ayaan.is-a.dev" class="project">
-            <div class="project-number">
-                <span>03</span>
-                <span>CLI TOOL</span>
-            </div>
-
-            <h3 class="hand">TimeToGo.</h3>
-
-            <p>
-                A small command-line utility for finding hotels for any holiday or trip.
-            </p>
-
-            <div class="project-bottom">
-                <div class="tags">
-                    <span class="tag">C++</span>
-                    <span class="tag">CLI</span>
-                    <span class="tag">TOOLS</span>
-                </div>
-                <span class="project-index">003</span>
-            </div>
-        </a>
-
-        <a href="https://mittenssocial.github.io" class="project">
-            <div class="project-number">
-                <span>04</span>
-                <span>MESSAGING</span>
-            </div>
-
-            <h3 class="hand">Mittens.</h3>
-
-            <p>
-                A messaging experiment focused on creating something
-                simple, understandable and actually enjoyable to use.
-            </p>
-
-            <div class="project-bottom">
-                <div class="tags">
-                    <span class="tag">APP</span>
-                    <span class="tag">NETWORKING</span>
-                    <span class="tag">WEB</span>
-                </div>
-                <span class="project-index">004</span>
-            </div>
-        </a>
-
-    </div>
-</section>
-
-<section class="reveal">
-    <div class="section-heading">
-        <div>
-            <span class="label">TOOLS / LANGUAGES</span>
-            <h2 class="section-title hand">My Toolbox.</h2>
-        </div>
-        <span class="section-number">06 / 06</span>
-    </div>
-
-    <div class="skills">
-
-        <div class="skill">
-            <h3 class="hand">Languages</h3>
-            <div class="skill-list">
-                <span>C++</span>
-                <span>Python</span>
-                <span>JavaScript</span>
-                <span>HTML</span>
-                <span>CSS</span>
-            </div>
-        </div>
-
-        <div class="skill">
-            <h3 class="hand">Tools</h3>
-            <div class="skill-list">
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>VS Code</span>
-                <span>Clion</span>
-                <span>CMake</span>
-            </div>
-        </div>
-
-        <div class="skill">
-            <h3 class="hand">Interests</h3>
-            <div class="skill-list">
-                <span>Systems</span>
-                <span>Compilers</span>
-                <span>Game Engines</span>
-                <span>DevTools</span>
-                <span>Languages</span>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section id="activity" class="reveal">
-    <div class="section-heading">
-        <div>
-            <span class="label">GITHUB</span>
-            <h2 class="section-title hand">My Contributions to society (or mostly myself).</h2>
-        </div>
-        <span class="section-number">07 / 07</span>
-    </div>
-
-    <div class="contribution-graph">
-
-        <div class="graph-header">
-            <div>
-                <span class="label">GITHUB / AYAANDH</span>
-                <h2 class="graph-title hand">Code activity.</h2>
-            </div>
-
-            <div class="total">
-                <span class="total-number" id="total">...</span>
-                <span class="total-label">CONTRIBUTIONS</span>
-            </div>
-        </div>
-
-        <div class="graph-wrapper">
-            <div class="graph" id="graph">
-                <div class="months" id="months"></div>
-
-                <div class="grid-row">
-                    <div class="days">
-                        <span></span>
-                        <span>Mon</span>
-                        <span></span>
-                        <span>Wed</span>
-                        <span></span>
-                        <span>Fri</span>
-                        <span></span>
-                    </div>
-
-                    <div class="weeks" id="weeks"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="graph-footer">
-            <span class="status" id="status">Loading GitHub data...</span>
-
-            <div class="legend">
-                <span>less</span>
-                <i class="cell"></i>
-                <i class="cell level-1"></i>
-                <i class="cell level-2"></i>
-                <i class="cell level-3"></i>
-                <span>more</span>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact" class="reveal">
-    <div class="contact">
-
-        <div class="contact-main">
-            <span class="label">CONTACT</span>
-
-            <h2 class="hand">
-                Find me<br>
-                on
-            </h2>
-
-            <p>
-                If you're interested in the work, the projects or just
-                want to see what I'm building next, these are the places
-                where I exist on the internet.
-            </p>
-        </div>
-
-        <div class="contact-links">
-
-            <a class="contact-link" href="https://github.com/ayaandh" target="_blank" rel="noopener">
-                <span>GITHUB</span>
-                <span>@ayaandh ↗</span>
-            </a>
-
-            <a class="contact-link" href="https://www.linkedin.com/in/ayaan-dhalait/" target="_blank" rel="noopener">
-                <span>LINKEDIN</span>
-                <span>ayaan-dhalait ↗</span>
-            </a>
-
-            <a class="contact-link" href="mailto:hello@ayaan.is-a.dev">
-                <span>EMAIL</span>
-                <span>GET IN TOUCH ↗</span>
-            </a>
-
-        </div>
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <span>AYAANDH</span>
-    <span></span>
-    <span>© 2026. All Rights Reserved.</span>
-</footer>
-
-</div>
-
-<div class="tooltip" id="tooltip"></div>
-
-<script>
-const USERNAME = "ayaandh";
-const API = `https://github-contributions-api.jogruber.de/v4/${USERNAME}?y=last`;
-
-const weeksElement = document.getElementById("weeks");
-const monthsElement = document.getElementById("months");
-const totalElement = document.getElementById("total");
-const statusElement = document.getElementById("status");
-const tooltip = document.getElementById("tooltip");
-
-const formatter = new Intl.NumberFormat();
-
-function parseDate(date) {
-    const [year, month, day] = date.split("-").map(Number);
-    return new Date(year, month - 1, day);
-}
-
-function formatDate(date) {
-    return date.toLocaleDateString("en-GB", {
-        day: "numeric",
-        month: "short",
-        year: "numeric"
-    });
-}
-
-function startOfWeek(date) {
-    const result = new Date(date);
-    const day = result.getDay();
-    const offset = day === 0 ? -6 : 1 - day;
-    result.setDate(result.getDate() + offset);
-    return result;
-}
-
-function showTooltip(event, text) {
-    tooltip.textContent = text;
-    tooltip.classList.add("visible");
-    tooltip.style.left = `${event.clientX}px`;
-    tooltip.style.top = `${event.clientY - 12}px`;
-}
-
-function hideTooltip() {
-    tooltip.classList.remove("visible");
-}
-
-function createCell(contribution) {
-    const cell = document.createElement("i");
-
-    cell.className = `cell level-${contribution.level}`;
-
-    const count = contribution.count;
-    const date = parseDate(contribution.date);
-
-    cell.setAttribute(
-        "aria-label",
-        `${count} contribution${count === 1 ? "" : "s"} on ${formatDate(date)}`
-    );
-
-    cell.addEventListener("mouseenter", event => {
-        showTooltip(
-            event,
-            `${formatter.format(count)} contribution${count === 1 ? "" : "s"} · ${formatDate(date)}`
-        );
-    });
-
-    cell.addEventListener("mousemove", event => {
-        tooltip.style.left = `${event.clientX}px`;
-        tooltip.style.top = `${event.clientY - 12}px`;
-    });
-
-    cell.addEventListener("mouseleave", hideTooltip);
-
-    return cell;
-}
-
-function createMonthLabels(contributions) {
-    monthsElement.innerHTML = "";
-
-    const seen = new Set();
-    const firstDate = parseDate(contributions[0].date);
-    const firstWeek = startOfWeek(firstDate);
-
-    contributions.forEach(contribution => {
-        const date = parseDate(contribution.date);
-        const monthKey = `${date.getFullYear()}-${date.getMonth()}`;
-
-        if (seen.has(monthKey)) return;
-
-        const firstDay = new Date(
-            date.getFullYear(),
-            date.getMonth(),
-            1
-        );
-
-        const weekStart = startOfWeek(firstDay);
-
-        const weekDifference =
-            Math.round((weekStart - firstWeek) / 604800000);
-
-        const label = document.createElement("span");
-
-        label.className = "month";
-        label.textContent = date.toLocaleDateString("en-GB", {
-            month: "short"
-        });
-
-        label.style.left = `${weekDifference * 15}px`;
-
-        monthsElement.appendChild(label);
-        seen.add(monthKey);
-    });
-}
-
-function render(contributions) {
-    weeksElement.innerHTML = "";
-
-    const byDate = new Map(
-        contributions.map(item => [item.date, item])
-    );
-
-    const firstDate = parseDate(contributions[0].date);
-    const lastDate = parseDate(
-        contributions[contributions.length - 1].date
-    );
-
-    const firstWeek = startOfWeek(firstDate);
-    const lastWeek = startOfWeek(lastDate);
-
-    for (
-        let current = new Date(firstWeek);
-        current <= lastWeek;
-        current.setDate(current.getDate() + 7)
-    ) {
-        const week = document.createElement("div");
-        week.className = "week";
-
-        for (let i = 0; i < 7; i++) {
-            const date = new Date(current);
-            date.setDate(date.getDate() + i);
-
-            const key =
-                `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-
-            const contribution = byDate.get(key);
-
-            if (!contribution) {
-                const empty = document.createElement("i");
-                empty.className = "cell";
-                empty.dataset.empty = "true";
-                week.appendChild(empty);
-            } else {
-                week.appendChild(createCell(contribution));
-            }
-        }
-
-        weeksElement.appendChild(week);
-    }
-
-    createMonthLabels(contributions);
-}
-
-async function loadContributions() {
-    try {
-        const response = await fetch(API);
-
-        if (!response.ok) {
-            throw new Error("GitHub contribution API request failed");
-        }
-
-        const data = await response.json();
-
-        if (!Array.isArray(data.contributions)) {
-            throw new Error("Invalid contribution data");
-        }
-
-        const contributions = data.contributions
-            .map(item => ({
-                ...item,
-                level: Number(item.level),
-                count: Number(item.count)
-            }))
-            .sort((a, b) => a.date.localeCompare(b.date));
-
-        if (!contributions.length) {
-            throw new Error("No contribution data available");
-        }
-
-        const total = contributions.reduce(
-            (sum, contribution) => sum + contribution.count,
-            0
-        );
-
-        totalElement.textContent = formatter.format(total);
-
-        render(contributions);
-
-        statusElement.textContent =
-            `Live data from GitHub · ${contributions.length} days`;
-
-    } catch (error) {
-        console.error(error);
-
-        totalElement.textContent = "—";
-        statusElement.textContent =
-            "Unable to load GitHub contribution data";
-        statusElement.classList.add("error");
-    }
-}
-
-const observer = new IntersectionObserver(
-    entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("visible");
-                observer.unobserve(entry.target);
-            }
-        });
-    },
-    {
-        threshold: .12
-    }
-);
-
-document.querySelectorAll(".reveal").forEach(element => {
-    observer.observe(element);
-});
-
-loadContributions();
-</script>
-
+            <a class="more" href="/projects/">See all projects →</a>
+        </section>
+
+        <section class="now">
+            <div class="section-title"><span>03</span><h2>Currently</h2></div>
+            <p>Learning intermediate C++, working on larger projects and getting deeper into how programming languages and computers work.</p>
+        </section>
+
+        <section class="contact">
+            <div class="section-title"><span>04</span><h2>Contact</h2></div>
+            <h2 class="contact-title">Have an idea?</h2>
+            <a href="mailto:ayaan@ayaan.is-a.dev">ayaan@ayaan.is-a.dev ↗</a>
+        </section>
+
+        <footer>
+            <span>© 2026 Ayaan Dhalait</span>
+            <div><a href="https://github.com/ayaandh" target="_blank">GitHub ↗</a><a href="https://ayaan.is-a.dev" target="_blank">ayaan.is-a.dev ↗</a></div>
+        </footer>
+    </main>
 </body>
 </html>
