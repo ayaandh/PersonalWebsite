@@ -1,0 +1,69 @@
+.projects-page{
+  width:min(1040px,calc(100% - 92px));
+  margin:auto
+}
+.projects-intro{position:relative;padding:92px 0 35px}
+.projects-intro .hero-kicker{order:initial;width:max-content;margin:0 0 25px}
+.projects-intro h1{font-size:clamp(76px,12vw,142px);line-height:.9;letter-spacing:-.1em}
+.projects-intro h1 span{color:var(--orange)}
+.projects-lede{max-width:560px;margin:25px 0 0;font-size:clamp(17px,2.2vw,22px);line-height:1.65;color:var(--muted)}
+.projects-meta{display:flex;justify-content:space-between;gap:20px;margin-top:42px;padding:13px 0;border-top:1px solid var(--line);font:10px "DM Mono",monospace;letter-spacing:.08em;color:var(--blue)}
+.projects-list{display:grid;grid-template-columns:1fr 1fr;gap:21px;padding:14px 0 55px}
+.portfolio-project{
+  display:flex;flex-direction:column;justify-content:space-between;min-height:350px;padding:22px;
+  border:2px solid var(--ink);border-radius:16px;background:#fff;box-shadow:5px 5px 0 var(--ink);
+  transition:transform .2s,box-shadow .2s
+}
+.portfolio-project:hover{transform:translateY(-4px) rotate(-.4deg);box-shadow:7px 9px 0 var(--ink)}
+.project-purple{background:#eee8ff}
+.project-orange{background:#fff0e4}
+.project-green{background:#e9f4dd}
+.project-blue{background:#e8f2ff}
+.project-yellow{background:#fff6ca}
+.portfolio-project-top{display:flex;justify-content:space-between;gap:12px;font:10px "DM Mono",monospace;letter-spacing:.06em;color:var(--muted)}
+.portfolio-project-content{display:grid;grid-template-columns:minmax(0,1fr) 88px;align-items:center;gap:12px;margin:29px 0 24px}
+.project-kicker{margin:0 0 8px;font:10px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--blue)}
+.portfolio-project h2{margin:0 0 11px;font-size:clamp(32px,4vw,48px);letter-spacing:-.075em}
+.portfolio-project-content p:not(.project-kicker){font-size:12px;line-height:1.8;color:#555267;margin:0}
+.portfolio-project code{padding:2px 5px;border-radius:4px;background:#fff9;border:1px solid #0002}
+.project-doodle{display:grid;place-items:center;width:82px;height:82px;border:2px solid var(--ink);border-radius:19px;background:#fff;font-size:47px;font-weight:800;color:var(--blue);transform:rotate(7deg);box-shadow:3px 3px 0 var(--ink)}
+.project-doodle span{color:var(--orange)}
+.terminal-doodle{font:800 28px "DM Mono",monospace}
+.editor-doodle{font-size:26px;transform:rotate(-7deg)}
+.git-doodle{font-size:52px;color:#399569}
+.travel-doodle{font-size:49px;color:#f17b42}
+.project-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.project-tags span{padding:5px 8px;border:1px solid #302c4533;border-radius:999px;background:#ffffffa8;font-size:9px;color:#514d61}
+.project-actions{display:flex;flex-wrap:wrap;gap:9px}
+.project-actions a,.projects-outro>a:not(.back-home){
+  display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1.5px solid var(--ink);border-radius:7px;
+  background:#fff;color:var(--ink);font-size:10px;font-weight:700;box-shadow:2px 2px 0 var(--ink);transition:transform .15s,box-shadow .15s
+}
+.project-actions a:hover,.projects-outro>a:not(.back-home):hover{transform:translate(2px,2px);box-shadow:none}
+.projects-outro{display:flex;align-items:center;gap:15px;flex-wrap:wrap;padding:0 0 75px}
+.projects-outro p{width:100%;margin:0;color:var(--muted);font-size:18px}
+.projects-outro .back-home{color:var(--blue);font-size:11px;font-weight:700}
+@media(max-width:760px){
+  .projects-page{width:calc(100% - 36px)}
+  .projects-intro{padding-top:64px}
+  .projects-list{grid-template-columns:1fr;gap:17px}
+  .portfolio-project{min-height:310px;padding:19px}
+  .portfolio-project-content{grid-template-columns:minmax(0,1fr) 68px}
+  .project-doodle{width:64px;height:64px;font-size:36px}
+  .terminal-doodle{font-size:22px}
+  .editor-doodle{font-size:21px}
+  .git-doodle,.travel-doodle{font-size:40px}
+}
+@media(max-width:420px){
+  .projects-page{width:calc(100% - 28px)}
+  .projects-intro{padding-top:52px}
+  .projects-intro .hero-kicker{font-size:8px}
+  .projects-meta{font-size:8px}
+  .portfolio-project-top{font-size:8px}
+  .portfolio-project-content{grid-template-columns:minmax(0,1fr) 54px;gap:8px}
+  .project-doodle{width:52px;height:52px;border-radius:13px;font-size:30px}
+  .terminal-doodle{font-size:17px}
+  .editor-doodle{font-size:18px}
+  .git-doodle,.travel-doodle{font-size:33px}
+}
+@media(prefers-reduced-motion:reduce){.portfolio-project{transition:none}}
