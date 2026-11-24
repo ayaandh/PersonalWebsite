@@ -1,127 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ayaan's projects: programming languages, developer tools, terminal apps and experiments.">
-  <title>Projects | Ayaan Dhalait</title>
-  <link rel="stylesheet" href="../style.css">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="stylesheet" href="projects-page.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Selected programming projects by Ayaan Dhalait.">
+<meta name="theme-color" content="#0b0b0b">
+<title>Projects | Ayaan Dhalait</title>
+<link rel="icon" type="image/png" href="../ayaan.png">
+<link rel="stylesheet" href="../styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <header class="masthead" id="top">
-    <a class="place" href="../index.html">Ayaan Dhalait <span aria-hidden="true">✳</span></a>
-    <div class="top-right">
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="../index.html">home</a>
-        <a href="#projects">projects</a>
-        <a href="../index.html#experience">experience</a>
-        <a href="../index.html#education">education</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="projects-page">
-    <section class="projects-intro">
-      <p class="hero-kicker"><span class="blue-mark"></span> A COLLECTION OF THINGS I'VE BUILT</p>
-      <h1>Projects<span>!</span></h1>
-      <p class="projects-lede">Code experiments, tools I wanted to exist, and ideas that got a little out of hand. Here's what I've been making.</p>
-      <div class="projects-meta"><span>MADE WITH CURIOSITY</span><span>AND A LOT OF TABS OPEN</span></div>
-    </section>
-
-    <section class="projects-list" id="projects" aria-label="Project list">
-      <article class="portfolio-project project-purple">
-        <div class="portfolio-project-top"><span>01 / BIG PROJECT</span><span>C++ · LLVM</span></div>
-        <div class="portfolio-project-content">
-          <div>
-            <p class="project-kicker">A language of my own</p>
-            <h2>Tekst</h2>
-            <p>An indentation-based programming language with a readable syntax and a native LLVM backend. I built the compiler pipeline to turn <code>.tk</code> source files into native executables.</p>
-            <div class="project-tags"><span>programming language</span><span>compiler</span><span>LLVM IR</span></div>
-          </div>
-          <div class="project-doodle" aria-hidden="true">t<span>k</span></div>
-        </div>
-        <div class="project-actions">
-          <a href="https://github.com/ayaandh/Tekst" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-          <a href="https://tekst.ayaan.is-a.dev" target="_blank" rel="noreferrer">Project site <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
-
-      <article class="portfolio-project project-orange">
-        <div class="portfolio-project-top"><span>02 / DEVELOPER TOOL</span><span>PYTHON · CLI</span></div>
-        <div class="portfolio-project-content">
-          <div>
-            <p class="project-kicker">Less typing, more building</p>
-            <h2>dhctl</h2>
-            <p>A command-line helper for developer chores: project setup, Git automation, starting a local server, cleanup and quick project analysis.</p>
-            <div class="project-tags"><span>command line</span><span>automation</span><span>Python</span></div>
-          </div>
-          <div class="project-doodle terminal-doodle" aria-hidden="true">&gt;_<span>;</span></div>
-        </div>
-        <div class="project-actions">
-          <a href="https://github.com/ayaandh/dhctl-source-code" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-          <a href="https://ayaandhalait.github.io/dhctl" target="_blank" rel="noreferrer">Project site <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
-
-      <article class="portfolio-project project-green">
-        <div class="portfolio-project-top"><span>03 / TERMINAL APP</span><span>C++ · C++17</span></div>
-        <div class="portfolio-project-content">
-          <div>
-            <p class="project-kicker">Editing, without leaving the terminal</p>
-            <h2>vexcode</h2>
-            <p>A modal terminal text editor with Vim-like controls, quick file search, syntax highlighting, tabs, an expandable file tree and an embedded terminal.</p>
-            <div class="project-tags"><span>text editor</span><span>terminal</span><span>C++17</span></div>
-          </div>
-          <div class="project-doodle editor-doodle" aria-hidden="true">Aa<span>_</span></div>
-        </div>
-        <div class="project-actions">
-          <a href="https://github.com/ayaandh/vexcode" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
-
-      <article class="portfolio-project project-blue">
-        <div class="portfolio-project-top"><span>04 / WEB PROJECT</span><span>GIT · WEB</span></div>
-        <div class="portfolio-project-content">
-          <div>
-            <p class="project-kicker">Git info, in a browser</p>
-            <h2>git-web</h2>
-            <p>A personal website project for showing Git information online. One of my experiments in turning developer tools into something you can explore on the web.</p>
-            <div class="project-tags"><span>Git</span><span>website</span><span>experiment</span></div>
-          </div>
-          <div class="project-doodle git-doodle" aria-hidden="true">⑂</div>
-        </div>
-        <div class="project-actions">
-          <a href="https://github.com/ayaandh/git-web" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
-
-      <article class="portfolio-project project-yellow">
-        <div class="portfolio-project-top"><span>05 / TRAVEL IDEA</span><span>PYTHON · CLI</span></div>
-        <div class="portfolio-project-content">
-          <div>
-            <p class="project-kicker">Planning the next trip</p>
-            <h2>TimeToGo</h2>
-            <p>A CLI-based travel project for finding hotels and villas for a trip. This one started with the question: what if holiday planning began right in the terminal?</p>
-            <div class="project-tags"><span>travel</span><span>command line</span><span>Python</span></div>
-          </div>
-          <div class="project-doodle travel-doodle" aria-hidden="true">✈</div>
-        </div>
-        <div class="project-actions">
-          <a href="https://github.com/ayaandh/TimeToGo" target="_blank" rel="noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/ayaandh/timetogo-web" target="_blank" rel="noreferrer">Website code <span aria-hidden="true">↗</span></a>
-        </div>
-      </article>
-    </section>
-
-    <section class="projects-outro">
-      <p>There are more experiments where these came from.</p>
-      <a href="https://github.com/ayaandh" target="_blank" rel="noreferrer">See my GitHub <span aria-hidden="true">↗</span></a>
-      <a class="back-home" href="../index.html">← Back to my homepage</a>
-    </section>
-  </main>
-
-  <footer><a class="footer-name" href="../index.html">Ayaan Dhalait<span>.</span></a><span>A little corner of the internet</span><a href="#top">BACK TO TOP ↑</a></footer>
-</body>
+<body><div class="container"><nav class="navbar">
+<a class="brand" href="../index.html"><img src="../ayaan.png" alt="Ayaan"><span>Ayaan Dhalait</span></a>
+<div class="nav-links"><a class="active" href="../projects/">projects</a><a class="" href="../articles/">articles</a><a class="" href="../stuff/">stuff</a></div>
+<a class="contact-link" href="/contact/">Get in touch ↗</a>
+</nav><main>
+<header class="page-hero"><span class="section-number">01 / PROJECTS</span><h1>Things I've built<span class="accent">.</span></h1><p>Projects, experiments and tools I've made while learning to program. Some are finished, some are still evolving, and some taught me more than I expected.</p></header>
+<section class="section"><div class="project-list"><article class="project">
+<div class="project-top"><span class="meta">01 / LANGUAGES & COMPILERS</span><span class="status">Ongoing</span></div>
+<h3>Tekst</h3><p>A programming language I'm building in C++. It has an indentation-based syntax and a native LLVM backend, and this project is where I'm learning about compiler design and language implementation.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">LLVM</span><span class="tag">Compiler Design</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/Tekst" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">02 / DEVELOPER TOOLS</span><span class="status">Built</span></div>
+<h3>Build</h3><p>A build tool for C++ projects. I made it to explore compilation workflows and make building small C++ projects less repetitive.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">C++20</span><span class="tag">CLI</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/Build" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">03 / PACKAGE MANAGEMENT</span><span class="status">In development</span></div>
+<h3>tkpackages</h3><p>A package manager library for the Tekst programming language, intended to help build out the language's wider ecosystem.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">Package Management</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/tkpackages" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">04 / COMMAND LINE</span><span class="status">Built</span></div>
+<h3>dhctl</h3><p>A command-line programming utility tool written in Python, built around making everyday developer tasks easier to handle from the terminal.</p>
+<div class="tags"><span class="tag">Python</span><span class="tag">CLI</span><span class="tag">Automation</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/dhctl" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">05 / WEB & PYTHON</span><span class="status">Experiment</span></div>
+<h3>Pillow</h3><p>A browser framework written in Python. An experiment in exploring how browser-related software and web tooling can be put together.</p>
+<div class="tags"><span class="tag">Python</span><span class="tag">Web</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/Pillow" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">06 / AUTOMATION</span><span class="status">Built</span></div>
+<h3>TimeToGo</h3><p>A command-line application for finding hotels and villas. I built it to explore automation and collecting accommodation information.</p>
+<div class="tags"><span class="tag">Python</span><span class="tag">CLI</span><span class="tag">Web Scraping</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/TimeToGo" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">07 / C++ APPLICATIONS</span><span class="status">Built</span></div>
+<h3>Library Management System</h3><p>A command-line library management application written in C++, exploring the structure of a practical terminal-based program.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">CLI</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/Library-Mangement-System" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">08 / C++ EXPERIMENTS</span><span class="status">Experiment</span></div>
+<h3>Encryption System</h3><p>A small C++ encryption experiment focused on transforming text and exploring basic encoding concepts.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">CMake</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/EncryptionSystem" target="_blank" rel="noopener">View repository ↗</a></div>
+</article><article class="project">
+<div class="project-top"><span class="meta">09 / LOGIC & APPLICATIONS</span><span class="status">Built</span></div>
+<h3>Basic Negotiation System</h3><p>A basic negotiation system written in C++, using price information and offers to model a simple negotiation.</p>
+<div class="tags"><span class="tag">C++</span><span class="tag">Logic</span></div>
+<div class="project-links"><a href="https://github.com/ayaandh/Basic-Negotiation-System" target="_blank" rel="noopener">View repository ↗</a></div>
+</article></div><div class="note-box"><h3>There is more on GitHub.</h3><p>These are selected public projects. You can browse the rest of my repositories on <a class="inline-link" href="https://github.com/ayaandh" target="_blank" rel="noopener">GitHub ↗</a>.</p></div></section>
+</main><footer>
+<h2>Thanks for stopping by.</h2>
+<p>Still learning, still building, always curious.</p>
+<div class="footer-links">
+<a href="https://github.com/ayaandh" target="_blank" rel="noopener">GitHub ↗</a>
+<a href="https://www.linkedin.com/in/ayaan-dhalait/" target="_blank" rel="noopener">LinkedIn ↗</a>
+<a href="mailto:ayaan@ayaan.is-a.dev">Email ↗</a>
+<a href="https://ayaan.is-a.dev" target="_blank" rel="noopener">Website ↗</a>
+</div>
+<div class="footer-bottom"><span>© 2026 Ayaan Dhalait</span><span>Designed and built by me.</span></div>
+</footer></div></body>
 </html>
